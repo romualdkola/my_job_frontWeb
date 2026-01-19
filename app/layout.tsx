@@ -4,16 +4,12 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Talent Faso - Offres d'emploi et Candidatures",
+  title: "TalentFaso - Connecter les talents aux opportunités au Burkina Faso",
   description: "Trouvez votre emploi de rêve ou recrutez les meilleurs talents au Burkina Faso",
   icons: {
-    icon: [
-      { url: "/favicon.png", type: "image/png" },
-    ],
+    icon: "/favicon.png",
     shortcut: "/favicon.png",
-    apple: [
-      { url: "/favicon.png", type: "image/png" },
-    ],
+    apple: "/favicon.png",
   },
 };
 
