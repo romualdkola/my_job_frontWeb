@@ -37,11 +37,10 @@ export default function Footer() {
               <Image
                 src="/images/logo_talentfaso.png"
                 alt="Logo Talent Faso"
-                width={32}
-                height={32}
+                width={200}
+                height={200}
                 className="object-contain"
               />
-              <h3 className="text-2xl font-bold">Talent Faso</h3>
             </Link>
             <p className="text-gray-400">
               Connecter les talents aux opportunités au Burkina Faso

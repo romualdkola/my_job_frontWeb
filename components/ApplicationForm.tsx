@@ -31,10 +31,8 @@ export default function ApplicationForm({ jobId }: ApplicationFormProps) {
     setIsSubmitting(true);
     setSubmitStatus(null);
 
-    // Simulate API call - In a real app, this would call your backend API
     await new Promise((resolve) => setTimeout(resolve, 1500));
 
-    // Store application in localStorage (in a real app, this would be sent to a backend)
     const application: JobApplication = {
       id: Date.now().toString(),
       jobId,

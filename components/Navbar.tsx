@@ -44,11 +44,10 @@ export default function Navbar() {
             <Image
               src="/images/logo_talentfaso.png"
               alt="Logo Talent Faso"
-              width={40}
-              height={40}
+              width={200}
+              height={200}
               className="object-contain"
             />
-            <span className="text-2xl font-bold text-primary">TalentFaso</span>
           </Link>
           <div className="flex gap-6 items-center">
             <Link

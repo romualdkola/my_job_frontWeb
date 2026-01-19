@@ -7,9 +7,13 @@ export const metadata: Metadata = {
   title: "Talent Faso - Offres d'emploi et Candidatures",
   description: "Trouvez votre emploi de rêve ou recrutez les meilleurs talents au Burkina Faso",
   icons: {
-    icon: "/favicon.png",
+    icon: [
+      { url: "/favicon.png", type: "image/png" },
+    ],
     shortcut: "/favicon.png",
-    apple: "/favicon.png",
+    apple: [
+      { url: "/favicon.png", type: "image/png" },
+    ],
   },
 };
 
